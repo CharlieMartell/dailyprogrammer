@@ -2,7 +2,7 @@
 import argparse
 from string import punctuation as punc
 
-# Setup argument parser for taking in String to mangle 
+# Setup argument parser for taking in String to mangle
 parser = argparse.ArgumentParser(description="Mangles string as such\n"
     "Input: This challenge doesn't seem so hard.\n"
     "Output: Hist aceeghlln denos't eems os adhr.")
@@ -30,6 +30,6 @@ def mangle_sentence(sentence):
 
 def main():
     print mangle_sentence(args['sentence'])
-    
+
 if __name__ == '__main__':
     main()
